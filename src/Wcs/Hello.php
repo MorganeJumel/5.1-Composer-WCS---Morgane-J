@@ -1,11 +1,15 @@
 <?php
+namespace App\wcs;
+/*class Hello{
+    public function talk(){
+        return 'Hello World';
+    }
+}*/
 
-namespace App\Wcs;
-
-class Hello
+class SayHello
 {
-    public function talk(): string
+    public static function world()
     {
-        return "Hello World !";
+        return 'Hello world, Composer!';
     }
 }
